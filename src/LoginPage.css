@@ -1,0 +1,99 @@
+#login-form table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+#login-form th {
+    width: auto;
+    text-align: right;
+    padding-right: 25px;
+}
+
+#login-form td {
+    padding-left: 25px;
+    width: auto;
+    padding-right: 0;
+}
+
+#login-form button {
+    margin: 0;
+    margin-top: 8px;
+}
+
+#login-form td.login-problem button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-size: 15px;
+    margin-top: 10px;
+    color: purple;
+    opacity: .8;
+    transition: 0;
+}
+
+#login-form td.login-problem button>i {
+    margin-right: 5px;
+    font-size: 18px;
+    vertical-align: -1px;
+}
+
+#login-form td.login-problem button:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.login-tip {
+    margin-top: 20px;
+    border: 0 solid transparent;
+    height: 0;
+    overflow: hidden;
+    font-size: 13px;
+    text-align: left;
+    position: relative;
+    background-color: rgba(255, 255, 255, .5);
+    transition: .5s;
+}
+
+.login-tip.shown {
+    border: 1px solid #aaa;
+    height: 100px;
+}
+
+code {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding-left: 10px;
+}
+
+.tip {
+    display: block;
+    color: purple;
+    text-indent: 20px;
+    word-break: keep-all;
+}
+
+@media (max-width: 768px) {
+    #login-form table {
+        width: 95%;
+    }
+
+    #login-form th {
+        /* text-align: left; */
+        width: 10%;
+        padding-right: 20px;
+    }
+
+    #login-form td {
+        padding-left: 0;
+    }
+
+    .login-tip {
+        overflow-x: auto;
+    }
+}

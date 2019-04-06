@@ -1,0 +1,41 @@
+[{
+    "id": 0,
+    "name": "Pig",
+    "fileName": "pig.png",
+    "shortDescription": "A pig is any of the animals in the genus Sus, within the even-toed ungulate family Suidae. Pigs include the domestic pig and its ancestor, the common Eurasian wild boar.",
+    "description": "<p>Despite their reputation, pigs are not dirty animals. They’re actually quite clean. The pig’s reputation as a filthy animal comes from its habit of rolling in mud to cool off. Pigs that live in cool, covered environments stay very clean.</p><p>Pigs are also known as hogs or swine. Male pigs of any age are called boars; female pigs are called sows. Pigs are found and raised all over the world, and provide valuable products to humans, including pork, lard, leather, glue, fertilizer, and a variety of medicines. Most pigs raised in the United States are classified as meat-type pigs, as they produce more lean meat than lard, a fat used in cooking.</p>",
+    "price": "500",
+    "shout": "Snort, snort!"
+}, {
+    "id": 1,
+    "name": "Rat",
+    "fileName": "rat.png",
+    "shortDescription": "Rats are various medium-sized, long-tailed rodents. Species of rats are found throughout the order Rodentia, but stereotypical rats are found in the genus Rattus.",
+    "description": "<p>Rat, (genus Rattus), the term generally and indiscriminately applied to numerous members of several rodent families having bodies longer than about 12 cm, or 5 inches. (Smaller thin-tailed rodents are just as often indiscriminately referred to as mice.) In scientific usage, rat applies to any of 56 thin-tailed, medium-sized rodent species in the genus Rattus native to continental Asia and the adjacent islands of Southeast Asia eastward to the Australia-New Guinea region.</p><p>A few species have spread far beyond their native range in close association with people. The brown rat, Rattus norvegicus (also called the Norway rat), and the house rat, R. rattus (also called the black rat, ship rat, or roof rat), live virtually everywhere that human populations have settled; the house rat is predominant in warmer climates, and the brown rat dominates in temperate regions, especially urban areas. Most likely originating in Asia, the brown rat reached Europe in the mid-1500s and North America around 1750. The house rat most likely originated in India.</p>",
+    "price": "300",
+    "shout": "Squeak, squeak!"
+}, {
+    "id": 2,
+    "name": "Monkey",
+    "fileName": "monkey.png",
+    "shortDescription": "Monkey is a common name that may refer to groups or species of mammals, in part, the simians of infraorder Simiiformes.",
+    "description": "<p>There are many different things that come to mind when we think about Monkeys. They are often seen as being cute and highly intelligent animals. There are many different species that have their own characteristics in terms of size, color, location, and even their abilities. They are known for being good care givers to the young and even having some humanistic movements.</p><p>Monkeys are very vocal animals and that is their name way of communicating with each other. They give of different pitches to warm off danger, to call a mate, and even to communicate with their young. Even though the communication of Monkeys has long been studied, there is a great deal that we still don’t know about it.</p>",
+    "price": "1200",
+    "shout": "Huhuhu, huhu, uaaaha!"
+}, {
+    "id": 3,
+    "name": "Dragon",
+    "fileName": "dragon.png",
+    "shortDescription": "A dragon is a large, serpent-like legendary creature that appears in the folklore of many cultures around the world.",
+    "description": "<p>Wide pearly eyes sit narrowly within the creature's narrow, thorny skull, which gives the creature a frightening looking appearance. Two crystal growths sit atop its head, just above its narrow, angular ears. Several large fan-like skin and bone structures runs down the sides of each of its jaw lines. Its nose is long and has two enormous, angular nostrils and there are crystal growths on its chin. Several rows of large teeth poke out from the side of its mouth and reveal only a fraction of the terror hiding inside.</p><p>A thick neck runs down from its head and into a slender body. The top is covered in curved scales and rows of thick armor plating runs down its spine. Its bottom is covered in coarse skin and is colored slightly darker than the rest of its body. Four powerful limbs carry its body and allow the creature to stand noble and intimidating. Each limb has 3 digits, each of which end in barbed talons seemingly made of bone.</p><p>Enormous wings grow starting from just below its shoulders and end at the lower end of its back. The wings are almost butterfly-like, a specialized layer of skin is all that's visible inside and sharp, spiky scales cover the top of each visible bone.</p><p>Its narrow tail ends in a seemingly fluffy tip and is covered in the same curved scales as its body.</p>",
+    "price": "10000",
+    "shout": "Ghaaaaaaaaaaa!"
+}, {
+    "id": 4,
+    "name": "Tiger",
+    "fileName": "tiger.png",
+    "shortDescription": "The tiger (Panthera tigris) is the largest species among the Felidae and classified in the genus Panthera. It is most recognizable for its dark vertical stripes.",
+    "description": "<p>A female tiger gives birth to a litter of three or four cubs, who she will care for until they are a year-and-a-half old. These cubs quadruple in size during their first month!</p><p>The powerful predator generally hunts alone, able to bring down prey such as deer and antelope. Tigers wait until dark to hunt. The tiger sprints to an unsuspecting animal, usually pulling it off its feet with its teeth and claws. If the prey animal is large, the tiger bites its throat to kill it; smaller prey is usually killed when the tiger breaks its neck. Tigers have been known to eat up to 60 pounds of meat in one night, but more often they consume about 12 pounds during a meal. It may take days for a tiger to finish eating its kill. The cat eats until it's full, and then covers the carcass with leaves and dirt. The tiger comes back to feed some more.</p> ",
+    "price": "4000",
+    "shout": "Groooooooar!"
+}]
