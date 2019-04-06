@@ -33,14 +33,16 @@ class BundlePage extends React.Component {
                 bundle,
                 bundleLoaded: true
             }))
-            .then(() => (
-                document.querySelector('.get-bundle-btn').addEventListener('click', () => this.setState({ bundleBought: true }))
-            ))
-            .catch(error => console.warn(error));
+            .then(() => (() => {
+                const getBundleBtn = document.querySelector('.get-bundle-btn');
+
+                if (getBundleBtn)
+                    getBundleBtn.addEventListener('click', () => this.setState({ bundleBought: true }));
+            }))
+            .catch(error => console.log(error));
     }
 
     componentDidMount() {
-        console.log('Public URL: ' + process.env.PUBLIC_URL);
         const loadingTime = Math.floor(Math.random() * 500 + 100);
         this.timeoutID = setTimeout(() => {
             this.fetchBundle();

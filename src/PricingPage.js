@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './PricingPage.css';
 import Loader from './images/loader.gif';
 
+const publicURL = process.env.PUBLIC_URL;
+
 class PricingPage extends Component {
     state = {
         bundles: [],
@@ -10,7 +12,7 @@ class PricingPage extends Component {
     }
 
     fetchData() {
-        fetch('data/bundles.json')
+        fetch(publicURL + '/data/bundles.json')
             .then(response => {
                 if (response.ok)
                     return response.json();
