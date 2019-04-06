@@ -10,7 +10,7 @@ class PricingPage extends Component {
     }
 
     fetchData() {
-        fetch('/data/bundles.json')
+        fetch('data/bundles.json')
             .then(response => {
                 if (response.ok)
                     return response.json();

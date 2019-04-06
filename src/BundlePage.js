@@ -5,6 +5,8 @@ import './BundlePage.css';
 import Loader from './images/loader.gif';
 import BundleLayer from './BundleLayer';
 
+const publicURL = process.env.PUBLIC_URL;
+
 class BundlePage extends React.Component {
     state = {
         bundle: {},
@@ -14,7 +16,7 @@ class BundlePage extends React.Component {
     }
 
     fetchBundle() {
-        fetch('/data/bundles.json')
+        fetch(publicURL + '/data/bundles.json')
             .then(response => {
                 if (response.ok)
                     return response.json();
@@ -38,6 +40,7 @@ class BundlePage extends React.Component {
     }
 
     componentDidMount() {
+        console.log('Public URL: ' + process.env.PUBLIC_URL);
         const loadingTime = Math.floor(Math.random() * 500 + 100);
         this.timeoutID = setTimeout(() => {
             this.fetchBundle();
