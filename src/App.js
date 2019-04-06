@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link, NavLink } from 'react-router-dom';
-import ErrorMessage from './ErrorMessage';
-import TopbarImage from './TopbarImage';
-import './App.css';
+import ErrorMessage from './components/ErrorMessage';
+import TopbarImage from './components/TopbarImage';
+import './styles/App.css';
 
 // cms pages
-import ContactPage from './ContactPage';
-import AdminPage from './AdminPage';
-import LoginPage from './LoginPage';
-import PricingPage from './PricingPage';
-import BundlePage from './BundlePage';
+import ContactPage from './components/ContactPage';
+import AdminPage from './components/AdminPage';
+import LoginPage from './components/LoginPage';
+import PricingPage from './components/PricingPage';
+import BundlePage from './components/BundlePage';
 
 const Home = () => <h2>Home</h2>;
 const About = () => <h2>About</h2>;

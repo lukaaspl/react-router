@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import ErrorMessage from './ErrorMessage';
-import './BundlePage.css';
-import Loader from './images/loader.gif';
+import '../styles/BundlePage.css';
+import Loader from '../images/loader.gif';
 import BundleLayer from './BundleLayer';
 
 const publicURL = process.env.PUBLIC_URL;
@@ -33,12 +33,12 @@ class BundlePage extends React.Component {
                 bundle,
                 bundleLoaded: true
             }))
-            .then(() => (() => {
+            .then(() => {
                 const getBundleBtn = document.querySelector('.get-bundle-btn');
 
                 if (getBundleBtn)
                     getBundleBtn.addEventListener('click', () => this.setState({ bundleBought: true }));
-            }))
+            })
             .catch(error => console.log(error));
     }
 
@@ -83,7 +83,7 @@ class BundlePage extends React.Component {
             );
 
         const { name, fileName, shout, description, price } = this.state.bundle[0];
-        const bundleIcon = require('./images/pricing-icons/' + fileName);
+        const bundleIcon = require('../images/pricing-icons/' + fileName);
         const discount = 0.2;
         const priceAfterDiscount = parseInt(price) - (parseInt(price) * discount);
 

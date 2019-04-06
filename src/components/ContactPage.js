@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Prompt } from 'react-router-dom';
-import './ContactPage.css';
+import '../styles/ContactPage.css';
 
 class ContactPage extends Component {
     defaultFormValues = {

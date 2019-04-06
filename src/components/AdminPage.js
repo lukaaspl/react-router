@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect, Link } from 'react-router-dom';
-import './AdminPage.css';
+import '../styles/AdminPage.css';
 
 class AdminPage extends Component {
     isLogged = sessionStorage.getItem('logged') === 'true';

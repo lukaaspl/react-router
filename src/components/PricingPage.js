@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './PricingPage.css';
-import Loader from './images/loader.gif';
+import '../styles/PricingPage.css';
+import Loader from '../images/loader.gif';
 
 const publicURL = process.env.PUBLIC_URL;
 
@@ -45,7 +45,7 @@ class PricingPage extends Component {
         this.state.bundles.sort((bundle1, bundle2) => bundle1.price - bundle2.price);
 
         const bundleListSorted = this.state.bundles.map(bundle => {
-            const bundleIcon = require('./images/pricing-icons/' + bundle.fileName);
+            const bundleIcon = require('../images/pricing-icons/' + bundle.fileName);
 
             return (
                 <Link to={`/bundle/${bundle.id}/${bundle.name.toLowerCase()}`} className="bundle" key={bundle.id}>

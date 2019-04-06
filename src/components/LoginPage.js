@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import ErrorMessage from './ErrorMessage';
-import './LoginPage.css';
+import '../styles/LoginPage.css';
 
 class LoginPage extends Component {
     state = {
